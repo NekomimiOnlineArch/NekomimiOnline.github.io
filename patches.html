@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nekomimi Online</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<header>
+  <p><span style="font-size:26px; padding: 10px; text-align: center; height: 100vh;"><strong>NEKOMIMI ONLINE</strong></span>
+  </p>
+  
+  <a href=" https://discord.gg/uWsdKaBy4a">
+ 
+  <img src="image\icon\discord-icon.png" class="header-image">
+  </a>
+</header>
+  <br />
+  <div class="container">
+		<h1>Previous Patches</h1>
+		<small style="margin-top: 1px;">Click text to show the details</small>
+			
+		<span class="dropdown-text" id="text" name="09302023"> <h2>Patch 09/30/2023 (Beta)</h2></span>	
+		<hr />			
+		<div class="dropdown-content"  id="content" name="09302023">
+			<table class="custom-table">
+			  <tbody>
+				<tr>
+				  <td>				
+					Fixed BGM not playing.
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Fixed Extended Class Reset not giving proper stat points and inability to add skills when resetting as Taekwon Class Transcendent Class
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Added Undestroyed Morroc and Sograt Desert Fields. 
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Fixed certain Expanded Super Novice skill requirements (Bowling Bash, Resurrection and Gloria)				
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Client Change to allow longer messages				
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Fix Heart of Ymir not allowing Extended Class rebirth to teleport to Valkyrie				
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Changed the following skills:	
+					<ul class="skill-change">
+						<li class="skill-change">Fury: Adds an extra 33% chance to Triple Attack trigger, and enable critical hits on Combo Attack skills, increase Critical Rate increase to +30</li>
+						<li class="skill-change">Esha: Increased movement speed reduction to 75% reduction (from 50%)</li>
+						<li class="skill-change">Mist Slash: Decrease After Cast Delay from 1 second to 0.5 second</li>
+						<li class="skill-change">Demonstration: Damage changed to 100 + 40 * Skill Level (300% at Max Level)</li>
+						<li class="skill-change">Acid Terror: Damage changed to 100 + 60 * Skill Level (400% at Max Level)</li>
+					</ul>			
+				  </td>
+				</tr>
+			  </tbody>
+			</table>	
+		</div>
+		<br/>	
+		<span class="dropdown-text" id="text" name="10012023"> <h2>Patch 10/01/2023 (Beta)</h2></span>	
+		<hr />			
+		<div class="dropdown-content"  id="content" name="10012023">
+			<table class="custom-table">
+		  <tbody>
+			  <td>
+				Changed the following skills:	
+				<ul class="skill-change">
+					<li class="skill-change">Backstab: Deals 2 hits when using Dagger (Doubles Damage), Bow reduction removed, no longer changes target direction when used, increase aftercast delay to 1 second</li>
+					<li class="skill-change">Preserve: Moved to Rogue</li>
+					<li class="skill-change">Reject Sword: Damage capped to Max HP</li>
+					<li class="skill-change">Aspersio: Changed priest bonus damage from (INT/2) + (Base Level/2) to (INT/2) + (Base Level)</li>
+					<li class="skill-change">Canto Candidus: When skill is leveled, increased ASPD of Priest (only) by 1 + 3% per level when affected by Increase Agility</li>
+					<li class="skill-change">Clementia: When skill is leveled, increased ATK of Priest (only) by 5% per level when affected by Blessing</li>
+					<li class="skill-change">Triple Attack: Reduced to 5 levels, scaled accordingly</li>
+					<li class="skill-change">Chain Crush Combo: Reduced to 5 levels, scaled accordingly</li>
+					<li class="skill-change">Homunculus: Buffed Homonculus (see Merchant Classes changes)</li>
+				</ul>			
+			  </td>
+			</tr>
+		  </tbody>
+		</table>
+		</div>
+		<br/>	
+		<span class="dropdown-text" id="text" name="10072023"><h2>Patch 10/07/2023 (Beta)</h2>		</span>	
+		<hr />			
+		<div class="dropdown-content" id="content" name="10072023">
+		<table class="custom-table">
+		  <tbody>
+			<tr> 
+			  <td>
+				Rearranged Morroc NPCs positions, edited NPCs that still mention the destruction, if you spot one that references it please report. Pheeroni and Ant Hell moved to their original positions.			
+			  </td>
+			</tr>  
+			<tr>
+			  <td>
+				Added an house in Izlude. Something of a preview :^)		
+			  </td>
+			</tr>  
+			<tr>
+			  <td>
+				Added Colored Clips[1], haven't made an npc for it though. Try @item 120010-120014
+			  </td>
+			</tr>  
+			<tr>
+			  <td>
+				Changes in refine System:	
+				<ul class="skill-change">
+					<li class="skill-change">Bonus ATK is now +2/+4/+8/+12 (per Weapon Level) per Refine Level </li>
+					<li class="skill-change">Added Enhanced Elunium and Enhanced Oricedon - Will have not change refine chance, but instead of destroying the weapon of failure, will downgrade weapon refine by -1</li>
+					<li class="skill-change">Will be added as drops somewhere</li>
+				</ul>
+			  </td>
+			</tr>  
+			<tr>
+			
+			  <td>
+				Changes in Armor Enchantment:	
+				<ul class="skill-change">
+					<li class="skill-change">Added all armors with slots</li>
+					<li class="skill-change">Added Enchantment Gems that will guarantee what stats will the armor be enchanted at, and items that increase success chance</li>
+					<li class="skill-change">Will be added as drops somewhere, @item 120001-120007 to test them</li>
+					<li class="skill-change">Failed enchantments no longer breaks, but does consume items and resources spent</li>
+					<li class="skill-change">Random option reworked, you have 1% chance for a +3 stat (per stat), 3% chance for a +2 stat (per stat) and 5% chance for a +1 stat</li>
+					<li class="skill-change">Increased cost to 500k Zeny</li>
+				</ul>
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+				Changes in Quests:
+				<ul class="skill-change">
+					<li class="skill-change">Removed first class tutorial quest for now, I'd like to reuse this in a different idea</li>
+					<li class="skill-change">Disabled God Items quest</li>
+					<li class="skill-change">Disabled Level 4 weapon quests for now, as I'll add more of this and rewrite it</li>
+				</ul>
+			  </td>
+			</tr>  
+			<tr>
+			  <td>
+				Changed the following skills:	
+				<ul class="skill-change">
+					<li class="skill-change">Taekwon: Doubled chances for stance kicks</li>
+				</ul>
+			  </td>
+			</tr>
+		  </tbody>
+		</table>		
+		</div>
+	
+		<br/>	
+		<span class="dropdown-text" id="text" name="10152023"><h2>Patch 10/15/2023 (Beta)</h2>		</span>	
+		<hr />	
+		<div class="dropdown-content" id="content" name="10152023">
+			<table class="custom-table">
+			  <tbody>
+				<tr> 
+				  <td>
+					Fixed High Taekwon losing their rebirth status when resetting skills. Taekwon Rankers now get their HP/SP bonuses on level 60.			
+				  </td>
+				</tr>  
+				<tr>
+				  <td>
+					Changed the following skills:	
+					<ul class="skill-change">
+						<li class="skill-change">Thief: 						
+							<ul class="skill-change">
+								<li class="skill-change">Sword Mastery: Moved down from Rogue.</li>
+							</ul>					
+						</li>
+						<li class="skill-change">Assassin: 						
+							<ul class="skill-change">
+								<li class="skill-change">Bash: Gain Bash Skill. Bash can now be doubled by Double Attack. This applies to Swordsman's bash as well.</li>
+								<li class="skill-change">Reduced Enchant Poison and Venom Dust by 5 points, effects scaled accordingly</li>
+								<li class="skill-change">Venom Splasher - Reduced cooldown to 0.5 seconds, and reduced time to always be 5 seconds, and removed cast time.</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Assassin Cross: 						
+							<ul class="skill-change">
+								<li class="skill-change">Counter Attack (Auto Counter): Add this skill.</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Gunslinger: 						
+							<ul class="skill-change">
+								<li class="skill-change">Spread Attack: SP Cost reduced to 4 + (4* Skill level)</li>
+								<li class="skill-change">Full Buster: SP Cost reduced to 4 * Skill Level, After cast delay at 1.2 seconds at all levels.</li>
+								<li class="skill-change">Dust: SP Cost reduced to 2 * Skill Level</li>
+								<li class="skill-change">Rapid Shower: SP cost reduced to 10 + (2* Skill level)</li>
+								<li class="skill-change">Tracking: SP cost reduced to 5 + (4* Skill level)</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Hunter: 						
+							<ul class="skill-change">
+								<li class="skill-change">Traps: Land Mine, Claymore Trap and Blast Mine damage increased, all three skills costs 10 SP to cast, and you can now put all traps under monsters except Ankle Snare.</li>
+								<li class="skill-change">Steel Crow: Bonus Damage increased to +8 per level, and adds Strength Scaling to Blitz Beat.</li>
+								<li class="skill-change">Blitz Beat: When using Dagger, Blitz Beats chance is doubled (LUK * 0.6)</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Dancer/Bard: 						
+							<ul class="skill-change">
+								<li class="skill-change">Musical Strike/Throw Arrow: Removed Cast Time, Increased SP Costs to 3 + (3* Skill level)</li>
+								<li class="skill-change">Arrow Vulcan: Can be used while performing, decreased base cast time to one second (+0.2 per level), decreased after cast delay by 1 second</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Star Gladiator: 						
+							<ul class="skill-change">
+								<li class="skill-change">Warmth of the Moon: Now deals 50% Magical Damage.</li>
+								<li class="skill-change">Warmth of the Stars: Now deals 70% Neutral damage that increases with DEX and LUK (increases by (DEX/3 + LUK/3) %)</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Merchant: 						
+							<ul class="skill-change">
+								<li class="skill-change">Overcharge money drop on monster kill reduced.</li>
+							</ul>	
+						</li>
+					</ul>
+				  </td>
+				</tr>
+			  </tbody>
+			</table>	
+		</div>
+	
+		<br/>	
+		<span class="dropdown-text" id="text" name="10172023"><h2>Patch 10/17/2023 (Beta)</h2></span>	
+		<hr />	
+		<div class="dropdown-content" id="content" name="10172023">
+			<table class="custom-table">
+			  <tbody>
+				<tr> 
+				  <td>
+					Fixed Ankle Snare being able to be moved under foot.			
+				  </td>
+				</tr>  
+				<tr>
+				  <td>
+					Changed the following skills:	
+					<ul class="skill-change">	
+						<li class="skill-change">Assassin: 						
+							<ul class="skill-change">
+								<li class="skill-change">Bash: Changed Double Attack procs only being able to be triggered by dual wielders, and requires daggers (or a Sword or Axe with a Sidewinder card).</li>
+								<li class="skill-change">Sonic Blow: Changed Damage to 400 + (60 * Skill level) (1000% at Max Level), and restored aftercast delay to 2 seconds.</li>
+								<li class="skill-change">Enchant Poison: When under Enchant Poison effect, increases critical damage by 2% per level</li>
+							</ul>					
+						</li>
+						<li class="skill-change">Assassin Cross: 						
+							<ul class="skill-change">
+								<li class="skill-change">Soul Breaker: Reduced Enchant Poison requirement, reduced cast time and cast delay.</li>
+								<li class="skill-change">Enchant Deadly Poison: Soul Breaker and Meteor Assault are now affected, but with reduced values (by half).</li>
+							</ul>					
+						</li>
+						<li class="skill-change">Clown/Gypsy: 						
+							<ul class="skill-change">
+								<li class="skill-change">Added Metallic Sound Skill. 50 + (Skill Level * 50) damage (Max at 300% Damage) Magical Neutral damage that can be used while performing.</li>
+							</ul>	
+						</li>	
+						<li class="skill-change">Gunslinger: 						
+							<ul class="skill-change">
+								<li class="skill-change">Full Buster: After Cast delay restored to old value, but moved to cooldown.</li>
+							</ul>	
+						</li>					
+						<li class="skill-change">Blacksmith and Alchemist: 						
+							<ul class="skill-change">
+								<li class="skill-change">Increased base HP.</li>
+							</ul>					
+						</li>				
+						<li class="skill-change">Alchemist: 						
+							<ul class="skill-change">
+								<li class="skill-change">Acid Terror and Demonstration: Levels increased to 10, increasing damage. Level 6 and up has 0.5 second cast time. Easy Bottles expanded to 1-4 levels.</li>
+								<li class="skill-change">Acid Terror: Damage increased to 100 + 70 * Skill level (800% damage at Max Level)</li>
+								<li class="skill-change">Demonstration: Damage increased to 100 + 50 * Skill level (600% damage at Max Level)</li>
+							</ul>	
+						</li>
+					</ul>
+				  </td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>
+		
+		
+		<br/>	
+		<span class="dropdown-text" id="text" name="11072023"><h2>Patch 11/07/2023 (Beta)</h2></span>	
+		<hr />	
+		<div class="dropdown-content" id="content" name="11072023">
+		<table class="custom-table">
+			  <tbody>
+				<tr> 
+				  <td>
+					Massive item changes for Dagger and 1 hand sword. Will add specific changes later.			
+				  </td>
+				</tr>  
+				<tr> 
+				  <td>
+					Changed Weapon Size Modifiers for the following weapons:
+					<ul class="skill-change">
+						<li class="skill-change">(Small/Medium/Large Damage%) </li>
+						<li class="skill-change">Dagger: 100/75/75</li>
+						<li class="skill-change">Knuckles: 100/75/75</li>
+						<li class="skill-change">Axes: 50/100/100</li>
+						<li class="skill-change">Whip: 75/100/75</li>
+					</ul>
+				  </td>
+				</tr>
+				<tr> 
+				  <td>
+					Changed Element Damage Modifiers for the following Elements:
+											
+					<ul class="skill-change">
+						<li class="skill-change"> Attacking -> Defense </li>
+						<li class="skill-change"> Undead -> Holy: 125% (From 100%)</li>
+						<li class="skill-change"> Undead -> Ghost: 125% (From 100%)</li>
+						<li class="skill-change"> Poison -> Ghost: 75% (From 100%)</li>
+						<li class="skill-change"> Ghost -> Undead: 125% (From 100%)  </li>
+					</ul>
+				  </td>
+				</tr>
+				<tr> 
+				  <td>
+					All classes can now use Berserk Potions
+				  </td>
+				</tr>
+				<tr> 
+				  <td>
+					Fix Envenom doing normal damage.
+				  </td>
+				</tr>
+				<tr>
+				  <td>
+					Changed the following skills:	
+					<ul class="skill-change">	
+						<li class="skill-change">Mage/Wizard/Sage: 						
+							<ul class="skill-change">
+								<li class="skill-change">Fire Ball: Reduce Cast Time and After Cast Delay to 1.2/1.2/1.2/0.9/0.9/0.9/0.6/0.6/0.6/0.3 seconds</li>
+								<li class="skill-change">Earth Spike: Increase Max Level to level 10, and decrease cast time to 0.7 Seconds per level</li>
+							</ul>					
+						</li>
+						<li class="skill-change">Hunter: 						
+							<ul class="skill-change">
+								<li class="skill-change">Reverted being able to put traps under monster's foot.</li>
+								<li class="skill-change">Blitz Beat: Increase hits by 1</li>
+								<li class="skill-change">Falcon Assault: Aftercast delay to 1 second, Added 3 second Cooldown</li>
+							</ul>					
+						</li>
+						<li class="skill-change">Alchemist: 						
+							<ul class="skill-change">
+								<li class="skill-change">Axe Mastery: Changed damage bonus from +6 per level to +7 per level. Added 1h sword to weapons affected.</li>
+								<li class="skill-change">Alchemist Soul Link: When under Alchemist Soul Link, Acid Terror and Demonstration will only require Easy Bottles at all levels.</li>
+								<li class="skill-change">Berserk Pitcher: Now a party skill that gives entire party Berserk Potion buff regardless of level. Requires only 1 Berserk Potion.</li>
+								<li class="skill-change">Glistening Coat: Craft requirements changed to 1 Squid Ink, 1 Zenorcs Fang, 1 Empty Bottle.</li>
+							</ul>	
+						</li>	
+						<li class="skill-change">Knights: 						
+							<ul class="skill-change">
+								<li class="skill-change">One Hand Quicken: Change SP cost to 6 + (6 * Skill Level).</li>
+								<li class="skill-change">Spear Boomerang: Damage changed to 150 + (50* Skill Level) (400% at max level)</li>
+								<li class="skill-change">Spear Stab: Blowback changed from 6 tiles to 8.</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Sage: 						
+							<ul class="skill-change">
+								<li class="skill-change">Violent Gale: Flee increase from 3 times level to 4 times level (20 FLEE max)</li>
+							</ul>	
+						</li>	
+						<li class="skill-change">Thief: 						
+							<ul class="skill-change">
+								<li class="skill-change">Double Attack: No longer gives HIT.</li>
+							</ul>	
+						</li>
+						<li class="skill-change">Rouge: 						
+							<ul class="skill-change">
+								<li class="skill-change">Strip Weapon: ATK reduction for mobs to 50% from 25%</li>
+								<li class="skill-change">Strip Shield: DEF reduction for mobs to 50% from 15%</li>
+								<li class="skill-change">Strip Armor: VIT reduction for mobs to 75% from 40%</li>
+								<li class="skill-change">Strip Helm: INT reduction for mobs to 75% from 40%</li>
+								<li class="skill-change">Poison and Deadly Poison: Reduces Soft Def to 0</li>
+							</ul>	
+						</li>					
+					</ul>
+				  </td>
+				</tr>
+			  </tbody>
+			</table>
+		</div>
+		
+	</div>
+		
+  </div>
+	  
+  <script>
+  
+	
+    $(".dropdown-text").click(function (event) {
+		var attributeName = $(this).attr("name");
+	
+		if ($(".dropdown-content[name='" + attributeName + "']").hasClass("show")) {
+        $(".dropdown-content[name='" + attributeName + "']").removeClass("show");
+		} else {
+        $(".dropdown-content[name='" + attributeName + "']").addClass("show");
+		}
+    });
+  </script>
+</body>
+</html>
